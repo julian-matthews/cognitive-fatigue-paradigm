@@ -31,7 +31,7 @@ Mathematical operators are drawn from [**`fatigue_stimuli.csv`**](./code/addons/
 ***
 
 ## Method
-We used a **cognitive effort decision making task** to study the value of exerting cognitive effort for reward. Cognitive effort was operationalised using mental arithmetic. 
+We used a **cognitive effort decision making task** to study the value of exerting cognitive effort for reward. Cognitive effort was operationalised using mental arithmetic. Six operators appeared in rapid succession which the participant had to sum in their head. Then, they had 1.5 seconds to select the correct response from three alternatives. The level of cognitive effort was manipulated by the choice of operators and proximity of the incorrect alternatives to the correct response.
 
 > Participants chose between a fixed _rest_ offer for 1 credit and variable _work_ offers that paired different levels of effort with different rewards. In this example, the participant chooses a work offer that requires the successful exertion of intermediate effort (level 3) for 6 credits in reward. After working or resting, participants rated their fatigue on a 0–100 point scale. Finally, the outcome of the trial was revealed.
 
