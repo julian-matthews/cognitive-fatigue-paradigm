@@ -13,16 +13,16 @@
 ## What is this?
 Here we provide **[MATLAB code](./code/)** used to conduct the cognitive fatigue experiment from our study. The code is made available under a GNUv3.0 license. 
 
-The experiment can be initiated using the `runExp_cedmt` function. Supporting functions and images are included in the `addons` folder together with the [task instructions](./code/addons/instructions/information_gamble_instructions.pdf). 
+The experiment can be initiated using the `**runExp_cedmt**` function. Supporting functions and images are included in the `**addons**` folder together with the [**task instructions**](./code/addons/instructions/information_gamble_instructions.pdf). 
 
-Mathematical operators are drawn from [`fatigue_stimuli.csv`](./code/addons/fatigue_stimuli.csv). This file includes 14 variables:
-- ID= Operation number
-- EffortDegree= Number from 0 or 1:5
-- Reward= Value from 1 or 2:2:10
-- Num1 through Num6= Operation values either +ve or -ve
-- CorrectResult= Response that is correct
-- WrongResult1 and WrongResult2= Responses that are incorrect
-- Difference1 and Difference2= The difference between the correct & incorrect responses
+Mathematical operators are drawn from [`**fatigue_stimuli.csv**`](./code/addons/fatigue_stimuli.csv). This file includes 14 variables:
+- `ID`= Operation number
+- `EffortDegree`= Number from 0 or 1:5
+- `Reward`= Value from 1 or 2:2:10
+- `Num1` through `Num6`= Operation values either +ve or -ve
+- `CorrectResult`= Response that is correct
+- `WrongResult1` and `WrongResult2`= Responses that are incorrect
+- `Difference1` and `Difference2`= The difference between the correct & incorrect responses
 
 ## You will need: 
 1. [**MATLAB**](https://au.mathworks.com/products/matlab.html)
