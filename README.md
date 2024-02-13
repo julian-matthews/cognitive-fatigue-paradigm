@@ -17,29 +17,31 @@ The experiment can be initiated using the `runExp_cedmt` function. Supporting fu
 
 Included are the [**task instructions**](./code/experiments/addons/instructions/information_gamble_instructions.pdf) we provided to participants.
 
-We used a **five-window slot machine with fixed odds** (50% chance of winning) to study how the opportunity to observe non-instrumental information about outcomes influences decisions to gamble. Critically, we informed participants about which slots would subsequently provide veridical information about the gamble outcome. 
-
-![methods]
-
-## What did you find?
-
-Across three experiments (n=71), we found that information availability has a striking affect on behaviour; **the opportunity to receive non-instrumental information increases the propensity to gamble**. 
-
-However, information availability does not drive behaviour in a simple, linear fashion. We used computational modeling to demonstrate that decision-making was strongly influenced by anticipatory utility. When information might provide a definitive outcome, participants were more inclined to gamble. However, when only partial information was available, participants were more inclined to reject the gamble. In fact, participants were less likely to accept gambles with partial information than a condition where no information was available at all, an effect that can be interpreted as **information avoidance**.
-
-> The following plot illustrates the proportion of gambles accepted (**Pr(Accept)**) as a function of non-instrumental information availability (**Informative windows**). Group means for each information condition are plotted in black. Errorbars reflect within-subject standard error of the mean. Individual subject means are plotted in grey for each information condition and experiment. 
-
-![results]
+## You will need: 
+1. [**MATLAB**](https://au.mathworks.com/products/matlab.html)
+2. [**Psychtoolbox**](http://psychtoolbox.org/)
 
 ***
 
-## You will need: 
-1. [**MATLAB**](https://au.mathworks.com/products/matlab.html) and [**Psychtoolbox**](http://psychtoolbox.org/)
+## Method
+We used a **cognitive effort decision making task** to study the value of exerting cognitive effort for reward. Cognitive effort was operationalised using mental arithmetic. 
 
-> Informative windows (black) display non-instrumental information that signals the outcome of the trial. Non-informative windows (white) display a random cue. All experiments had identical numbers of trials per information condition, the difference between Experiments 1 and 2 vs. Experiment 3 was the arrangement of informative windows. In Experiments 1 and 2, arrangements were randomly selected from the options in the top panel. In Experiment 3, window arrangements were composed of the options in the bottom panel. Importantly, for the partial information conditions in Experiment 3 (1 to 4 informative windows), informative windows appeared relatively early or relatively late in the trial. An equal proportion of earlier and later arrangements were used.
+> Participants chose between a fixed _rest_ offer for 1 credit and variable _work_ offers that paired different levels of effort with different rewards. In this example, the participant chooses a work offer that requires the successful exertion of intermediate effort (level 3) for 6 credits in reward. After working or resting, participants rated their fatigue on a 0–100 point scale. Finally, the outcome of the trial was revealed.
 
-![arrangement]
+![methods]
 
-[methods]: /figures/methods-figure.png
-[results]: /figures/information-availability.png
-[arrangement]: /figures/information-arrangement.png
+## Fatigue
+Critically, we contrasted decisions to exert effort in two contexts. 
+
+1. In the **Pre-task**, offers involved a wide variety of effort and reward conditions but participants were required to complete the chosen offer (i.e., exert effort) on a random subset of decisions only. Thus, decisions to exert effort were performed in the context of minimal fatigue. 
+2. In the **Main task**, the best offers appeared (i.e., higher rewards for lower effort) but participants were required to complete the chosen offer on every trial. No breaks were provided so the only way for participants to recover from mental exertion was to select the _rest_ offer. Thus, decisions to exert effort were performed in the context of increasing fatigue. 
+
+> In the **Pre-task**, work offers included 5 levels of effort and 5 levels of reward. In the **Main task**, work offers paired the 3 highest levels of reward with the 3 lowest levels of effort
+![conditions]
+
+> Decisions not to work required the participant to respond to a fixed mathematical operation (a sum of zeros) where the answer (zero) was known in advance.
+![rest]
+
+[methods]: /figures/cognitive_paradigm.png
+[conditions]: /figures/effort_conditions.png
+[rest]: /figures/cognitive_rest.png
