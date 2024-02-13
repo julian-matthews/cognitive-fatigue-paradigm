@@ -36,10 +36,12 @@ Critically, we contrasted decisions to exert effort in two contexts.
 1. In the **Pre-task**, offers involved a wide variety of effort and reward conditions but participants were required to complete the chosen offer (i.e., exert effort) on a random subset of decisions only. Thus, decisions to exert effort were performed in the context of minimal fatigue. 
 2. In the **Main task**, the best offers appeared (i.e., higher rewards for lower effort) but participants were required to complete the chosen offer on every trial. No breaks were provided so the only way for participants to recover from mental exertion was to select the _rest_ offer. Thus, decisions to exert effort were performed in the context of increasing fatigue. 
 
-> In the **Pre-task**, work offers included 5 levels of effort and 5 levels of reward. In the **Main task**, work offers paired the 3 highest levels of reward with the 3 lowest levels of effort
+> In the **Pre-task**, work offers included 5 levels of effort and 5 levels of reward. In the **Main task**, work offers paired the 3 highest levels of reward with the 3 lowest levels of effort.
+
 ![conditions]
 
-> Decisions not to work required the participant to respond to a fixed mathematical operation (a sum of zeros) where the answer (zero) was known in advance.
+> Decisions not to work (i.e., **rest**) required the participant to respond to a fixed mathematical operation (a sum of zeros) where the answer (zero) was known in advance.
+
 ![rest]
 
 [methods]: /figures/cognitive_paradigm.png
