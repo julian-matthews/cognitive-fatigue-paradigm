@@ -13,7 +13,7 @@
 ## What is this?
 Here we provide **[MATLAB code](./code/experiments/)** used to conduct the cognitive fatigue experiment from our study. The code is made available under a GNUv3.0 license. 
 
-The experiment can be initiated using the `runExp_cedm` function. Supporting functions and images are included in the `addons` folder. 
+The experiment can be initiated using the `runExp_cedmt` function. Supporting functions and images are included in the `addons` folder. 
 
 Included are the [**task instructions**](./code/experiments/addons/instructions/information_gamble_instructions.pdf) we provided to participants.
 
