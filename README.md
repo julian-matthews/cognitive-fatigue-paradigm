@@ -13,9 +13,9 @@
 ## What is this?
 Here we provide **[MATLAB code](./code/)** used to conduct the cognitive fatigue experiment from our study. The code is made available under a GNUv3.0 license. 
 
-The experiment can be initiated using the `**runExp_cedmt**` function. Supporting functions and images are included in the `**addons**` folder together with the [**task instructions**](./code/addons/instructions/information_gamble_instructions.pdf). 
+The experiment can be initiated using the **`runExp_cedmt`** function. Supporting functions and images are included in the **`addons`** folder together with the [**task instructions**](./code/addons/instructions/information_gamble_instructions.pdf). 
 
-Mathematical operators are drawn from [`**fatigue_stimuli.csv**`](./code/addons/fatigue_stimuli.csv). This file includes 14 variables:
+Mathematical operators are drawn from [**`fatigue_stimuli.csv`**](./code/addons/fatigue_stimuli.csv). This file includes 14 variables:
 - `ID`= Operation number
 - `EffortDegree`= Number from 0 or 1:5
 - `Reward`= Value from 1 or 2:2:10
