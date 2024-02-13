@@ -1,6 +1,6 @@
 # Computational mechanisms underlying the dynamics of physical and cognitive fatigue
 
-###### [Julian Matthews](https://twitter.com/quined_quales), Andrea Pisauro, Mindaugas Jurgelis, Tanja Müller, [Trevor Chong](http://cogneuro.com.au/), [Matthew Apps](https://www.msn-lab.com/dr-matthew-apps)
+###### [Julian Matthews](https://twitter.com/quined_quales), [Andrea Pisauro](https://twitter.com/AndreaPisauro), [Mindaugas Jurgelis](https://twitter.com/MKJurgelis), [Tanja Müller](https://twitter.com/tm_brainscience), [Trevor Chong](http://cogneuro.com.au/), [Matthew Apps](https://www.msn-lab.com/dr-matthew-apps)
 
 ***
 
