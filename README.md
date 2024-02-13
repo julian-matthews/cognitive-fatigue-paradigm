@@ -11,11 +11,22 @@
 > The willingness to exert effort for reward is essential but comes at the cost of fatigue. Theories suggest fatigue increases after both physical and cognitive exertion, subsequently reducing the motivation to exert effort. Yet a mechanistic understanding of how this happens on a moment-to-moment basis, and whether mechanisms are common to both mental and physical effort, is lacking. In two studies, participants reported momentary (trial-by-trial) ratings of fatigue during an effort-based decision-making task requiring either physical (grip-force) or cognitive (mental arithmetic) effort. Using a novel computational model, we show that fatigue fluctuates from trial-to-trial as a function of exerted effort and predicts subsequent choices. This mechanism was shared across the domains. Selective to the cognitive domain, committing errors also induced momentary increases in feelings of fatigue. These findings provide insight into the computations underlying the influence of effortful exertion on fatigue and motivation, in both physical and cognitive domains.
 
 ## What is this?
-Here we provide **[MATLAB code](./code/experiments/)** used to conduct the cognitive fatigue experiment from our study. The code is made available under a GNUv3.0 license. 
+Here we provide **[MATLAB code](./code/)** used to conduct the cognitive fatigue experiment from our study. The code is made available under a GNUv3.0 license. 
 
 The experiment can be initiated using the `runExp_cedmt` function. Supporting functions and images are included in the `addons` folder. 
 
-Included are the [**task instructions**](./code/experiments/addons/instructions/information_gamble_instructions.pdf) we provided to participants.
+Included are the [**task instructions**](./code/addons/instructions/information_gamble_instructions.pdf) we provided to participants. 
+
+Mathematical operators are drawn from a csv file. 
+
+[**`fatigue_stimuli.csv`**](./code/addons/fatigue_stimuli.csv) includes 14 variables:
+- ID= Operation number
+- EffortDegree= Number from 0 or 1:5
+- Reward= Value from 1 or 2:2:10
+- Num1 through Num6= Operation values either +ve or -ve
+- CorrectResult= Response that is correct
+- WrongResult1 and WrongResult2= Responses that are incorrect
+- Difference1 and Difference2= The difference between the correct & incorrect responses
 
 ## You will need: 
 1. [**MATLAB**](https://au.mathworks.com/products/matlab.html)
